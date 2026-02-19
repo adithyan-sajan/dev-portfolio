@@ -11,8 +11,6 @@
 }
 
 .animate-bg-smooth {
-  /* 400% stretches the gradient, making color changes very gradual */
   background-size: 400% 400% !important;
-  /* 15s or 20s makes the movement calm and professional */
-  animation: gradient-move 20s ease infinite;
+  animation: gradient-move 15s ease infinite;
 }

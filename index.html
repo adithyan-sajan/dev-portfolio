@@ -3,10 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>AdithyanSajan</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tailwind CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
+    <!-- container desing -->
+    <!-- bg-white/10 backdrop-blur-2xl border border-white/20 border-t-white/10 shadow-2xl ring-1 ring-white/5 -->
+    <!-- gradient background fixed -->
     <div class="fixed inset-0 -z-50 animate-bg-smooth bg-linear-to-tr from-black via-red-900 to-slate-900"></div>
+    <nav class="flex justify-center items-center gap-10 p-5 mx-auto max-w-fit mt-5 rounded-3xl bg-white/10 backdrop-blur-3xl border border-white/10 border-t-white/20 shadow-2xl ring-1 ring-white/5">
+      <i class="text-3xl text-white/70 hover:text-red-500 cursor-pointer transition-colors fa-solid fa-house"></i>
+      <i class="text-3xl text-white/70 hover:text-red-500 cursor-pointer transition-colors fa-solid fa-folder"></i>
+      <i class="text-3xl text-white/70 hover:text-red-500 cursor-pointer transition-colors fa-solid fa-gear"></i>
+      <i class="text-3xl text-white/70 hover:text-red-500 cursor-pointer transition-colors fa-solid fa-address-card"></i>
+    </nav>
   </body>
 </html>
