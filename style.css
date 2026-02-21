@@ -12,5 +12,15 @@
 
 .animate-bg-smooth {
   background-size: 400% 400% !important;
-  animation: gradient-move 15s ease infinite;
+  animation: gradient-move 10s linear infinite;
+}
+
+.bebas{
+  font-family: "Bebas Neue", system-ui;
+}
+.bitcount{
+  font-family: "Bitcount Grid Double", system-ui;
+}
+.rubik{
+  font-family: "Rubik", system-ui;
 }

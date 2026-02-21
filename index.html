@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Tailwind CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitcount+Grid+Double:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
   </head>
   <body>
     <!-- container desing -->
@@ -18,10 +22,10 @@
     <div class="fixed inset-0 -z-50 animate-bg-smooth bg-linear-to-tr from-black via-red-900 to-slate-900"></div>
     <!-- navbar -->
     <nav class="flex justify-center items-center gap-10 p-5 mx-auto max-w-fit mt-5 rounded-3xl bg-white/10 backdrop-blur-3xl border border-white/10 border-t-white/20 shadow-2xl ring-1 ring-white/5">
-      <i class="text-3xl text-white/70 hover:text-red-500 cursor-pointer transition-colors fa-solid fa-house"></i>
-      <i class="text-3xl text-white/70 hover:text-red-500 cursor-pointer transition-colors fa-solid fa-folder"></i>
-      <i class="text-3xl text-white/70 hover:text-red-500 cursor-pointer transition-colors fa-solid fa-gear"></i>
-      <i class="text-3xl text-white/70 hover:text-red-500 cursor-pointer transition-colors fa-solid fa-address-card"></i>
+      <i class="text-3xl text-white/70 hover:text-red-600 cursor-pointer transition-colors fa-solid fa-house"></i>
+      <i class="text-3xl text-white/70 hover:text-red-600 cursor-pointer transition-colors fa-solid fa-folder"></i>
+      <i class="text-3xl text-white/70 hover:text-red-600 cursor-pointer transition-colors fa-solid fa-gear"></i>
+      <i class="text-3xl text-white/70 hover:text-red-600 cursor-pointer transition-colors fa-solid fa-address-card"></i>
     </nav>
     <!-- main container -->
     <div class="grid grid-cols-1 md:grid-cols-[1fr_1fr] mt-10 md:mt-20 gap-20 justify-items-center">
@@ -35,17 +39,21 @@
         <h3 class="font-medium text-gray-400 text-xl">Trivandrum,Kerala</h3>
         <!-- socials container -->
         <div class="flex mt-4 gap-3">
-          <a href=""> <i class="text-4xl text-white/70 hover:text-red-600 cursor-pointer transition-colors fa-brands fa-square-linkedin"></i> </a>
-          <a href=""> <i class="text-4xl text-white/70 hover:text-red-600 cursor-pointer transition-colors fa-brands fa-square-github"></i> </a>
-          <a href=""> <i class="text-4xl text-white/70 hover:text-red-600 cursor-pointer transition-colors fa-brands fa-square-instagram"></i> </a>
-          <a href=""> <i class="text-4xl text-white/70 hover:text-red-600 cursor-pointer transition-colors fa-solid fa-envelope"></i> </a>
+          <a href=""> <i class="text-4xl text-white/70 hover:text-red-600 transition-colors fa-brands fa-square-linkedin"></i> </a>
+          <a href=""> <i class="text-4xl text-white/70 hover:text-red-600 transition-colors fa-brands fa-square-github"></i> </a>
+          <a href=""> <i class="text-4xl text-white/70 hover:text-red-600 transition-colors fa-brands fa-square-instagram"></i> </a>
+          <a href=""> <i class="text-4xl text-white/70 hover:text-red-600 transition-colors fa-solid fa-envelope"></i> </a>
         </div>
         <!-- contact button -->
         <button class="mt-8 w-50 py-4 bg-red-600 text-white rounded-2xl font-bold hover:scale-[1.02] transition-transform">Connect</button>
       </div>
       <!-- right side div -->
-      <div class="justify-self-start">
-        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, dolorem tempora suscipit, illo tempore facilis distinctio harum, delectus possimus obcaecati quod quia nulla blanditiis cupiditate? Facere dolorem repellat ex exercitationem?</div>
+      <div class="justify-self-start md:justify-items-start">
+        <!-- intro -->
+        <div class="md:mt-30 mx-10 md:mx-0 md:mr-40 p-10 rounded-2xl bg-white/10 backdrop-blur-2xl border border-white/20 border-t-white/10 shadow-2xl ring-1 ring-white/5">
+          <h1 class="text-7xl bebas text-white">Hi I'm <span> Adithyan</span></h1>
+          <p class="text-5xl text-white bebas mt-5">I am a full stack web developer. I engineer full stack solutions that pair high fidelity design with production grade scalability.</p>
+        </div>
       </div>
     </div>
   </body>
