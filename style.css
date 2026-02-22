@@ -14,13 +14,12 @@
   background-size: 400% 400% !important;
   animation: gradient-move 10s linear infinite;
 }
-
-.bebas{
+.bebas {
   font-family: "Bebas Neue", system-ui;
 }
-.bitcount{
-  font-family: "Bitcount Grid Double", system-ui;
+.lobster{
+  font-family: "Lobster", system-ui;
 }
-.rubik{
+.rubik {
   font-family: "Rubik", system-ui;
 }
